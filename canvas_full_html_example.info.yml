@@ -1,0 +1,11 @@
+name: Canvas Full HTML Example
+type: module
+description: Example config for Full HTML format with Canvas Full HTML.
+core_version_requirement: ^10.3 || ^11
+package: Canvas
+dependencies:
+  - drupal:filter
+  - drupal:editor
+  - drupal:ckeditor5
+  - canvas:canvas
+  - canvas_full_html:canvas_full_html
