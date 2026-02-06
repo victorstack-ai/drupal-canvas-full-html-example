@@ -48,3 +48,13 @@ drush site:install canvas_full_html_example --yes
 - The config mirrors the Drupal 11 standard profile Full HTML defaults (including toolbar and allowed tags).
 - The `config/install` copy is identical to the `config/example` files for transparency.
 - Adjust filters, toolbar items, and allowed roles (the default is `administrator`) to fit your security model.
+
+## Development
+
+Install dev dependencies and run checks:
+
+```bash
+composer install
+vendor/bin/phpcs
+vendor/bin/phpunit
+```
