@@ -2,7 +2,7 @@
 
 Example configuration for enabling the `full_html` text format and a matching CKEditor 5 profile for use with the Canvas Full HTML module.
 
-This repository ships a tiny Drupal module named `canvas_full_html_example` that provides example config for a Full HTML text format and CKEditor 5 profile. You can either:
+This repository ships a tiny Drupal module named `canvas_full_html_example` that provides example config for a Full HTML text format and CKEditor 5 profile. It also includes a minimal install profile at `profiles/canvas_full_html_example` for quick spins. You can either:
 
 - Enable the module to install the config automatically, or
 - Copy the config into your site's config sync directory and import it manually.
@@ -31,6 +31,10 @@ config/example/editor.editor.full_html.yml
 ```
 
 - Import configuration (`drush cim` or the admin UI).
+
+Option C: Install profile
+
+- Use the `Canvas Full HTML Example` profile during site install to enable required modules and the example config.
 
 2. Visit the Canvas Full HTML settings page to enable the format and adjust permissions.
 

@@ -1,0 +1,21 @@
+name: Canvas Full HTML Example
+type: profile
+description: Install profile that enables Canvas Full HTML with a Full HTML text format and CKEditor 5 profile.
+core_version_requirement: ^10.3 || ^11
+distribution:
+  name: Canvas Full HTML Example
+install:
+  - node
+  - user
+  - system
+  - filter
+  - editor
+  - ckeditor5
+  - media
+  - media_library
+  - canvas
+  - canvas_full_html
+  - canvas_full_html_example
+themes:
+  - olivero
+  - claro
