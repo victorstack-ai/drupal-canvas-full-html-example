@@ -35,6 +35,11 @@ config/example/editor.editor.full_html.yml
 Option C: Install profile
 
 - Use the `Canvas Full HTML Example` profile during site install to enable required modules and the example config.
+- Or install with Drush:
+
+```
+drush site:install canvas_full_html_example --yes
+```
 
 2. Visit the Canvas Full HTML settings page to enable the format and adjust permissions.
 
