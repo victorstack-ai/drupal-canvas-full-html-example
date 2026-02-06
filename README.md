@@ -10,7 +10,7 @@ This repository ships a tiny Drupal module named `canvas_full_html_example` that
 ## Requirements
 
 - Drupal 10.3+ or 11
-- Core modules: Filter, Editor, CKEditor 5
+- Core modules: Filter, Editor, CKEditor 5, Media, Media Library
 - Contrib modules: Canvas, Canvas Full HTML
 
 ## Usage
@@ -36,6 +36,6 @@ config/example/editor.editor.full_html.yml
 
 ## Notes
 
-- The config is intentionally minimal and mirrors the standard profile's Full HTML defaults.
+- The config mirrors the Drupal 11 standard profile Full HTML defaults (including toolbar and allowed tags).
 - The `config/install` copy is identical to the `config/example` files for transparency.
-- Adjust filters, toolbar items, and allowed roles to fit your security model.
+- Adjust filters, toolbar items, and allowed roles (the default is `administrator`) to fit your security model.

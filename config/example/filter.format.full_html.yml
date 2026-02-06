@@ -5,25 +5,37 @@ dependencies:
     - editor
 name: 'Full HTML'
 format: full_html
-weight: 0
+weight: 1
+roles:
+  - administrator
 filters:
   editor_file_reference:
+    id: editor_file_reference
+    provider: editor
     status: true
+    weight: -10
     settings: { }
-    weight: 0
   filter_align:
+    id: filter_align
+    provider: filter
     status: true
+    weight: -6
     settings: { }
-    weight: 1
   filter_caption:
+    id: filter_caption
+    provider: filter
     status: true
+    weight: -4
     settings: { }
-    weight: 2
   filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
     status: true
+    weight: 10
     settings: { }
-    weight: 3
   filter_image_lazy_load:
+    id: filter_image_lazy_load
+    provider: filter
     status: true
+    weight: -2
     settings: { }
-    weight: 4
