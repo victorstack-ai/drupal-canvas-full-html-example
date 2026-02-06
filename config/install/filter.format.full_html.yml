@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - editor
+name: 'Full HTML'
+format: full_html
+weight: 0
+filters:
+  editor_file_reference:
+    status: true
+    settings: { }
+    weight: 0
+  filter_align:
+    status: true
+    settings: { }
+    weight: 1
+  filter_caption:
+    status: true
+    settings: { }
+    weight: 2
+  filter_htmlcorrector:
+    status: true
+    settings: { }
+    weight: 3
+  filter_image_lazy_load:
+    status: true
+    settings: { }
+    weight: 4

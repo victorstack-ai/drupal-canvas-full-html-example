@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+  module:
+    - ckeditor5
+    - editor
+    - filter
+format: full_html
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - bold
+      - italic
+      - underline
+      - link
+      - bulletedList
+      - numberedList
+      - blockQuote
+      - drupalInsertImage
+      - sourceEditing
+  plugins:
+    ckeditor5_image:
+      status: true
+    ckeditor5_sourceEditing:
+      allowed_tags: '*'
